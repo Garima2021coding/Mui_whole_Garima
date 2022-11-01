@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
+// import Hk from './Components/Hk';
+//  import Btn from "./Components/Btn";
+// import Typgraphy from './Components/Typgraphy';
+// import Hdrs from './Components/Hdrs';
+import Frm from './Components/Frm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* <h1>Heloo this is h1  elemnet</h1> */}
+
+      {/* <Hk /> */}
+      {/* <Hdrs /> */}
+      <Frm />
     </div>
   );
 }
